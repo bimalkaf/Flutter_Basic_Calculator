@@ -53,21 +53,17 @@ class _CalculatorState extends State<Calculator> {
         Container(
           padding: const EdgeInsets.all(20),
           alignment: Alignment.centerRight,
-          child: FittedBox(
             child: Text(
               statement,
               style: const TextStyle(fontSize: 32),
-            ),
           ),
         ),
         Container(
           padding: const EdgeInsets.all(15),
           alignment: Alignment.centerRight,
-          child: FittedBox(
             child: Text(
               result,
               style: const TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
-            ),
           ),
         )
       ],
